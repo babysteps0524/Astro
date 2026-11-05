@@ -13,5 +13,11 @@
   },
   "dependencies": {
     "astro": "^7.4.5"
+  },
+  "devDependencies": {
+    "eslint": "^10.14.0",
+    "prettier": "^3.9.10",
+    "prettier-plugin-astro": "^1.1.2",
+    "prettier-plugin-tailwindcss": "^0.8.1"
   }
 }
