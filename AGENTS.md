@@ -1,8 +1,10 @@
+# Astro
+
 ## Development
 
 When starting the dev server, use background mode:
 
-```
+```text
 astro dev --background
 ```
 
@@ -10,7 +12,9 @@ Manage the background server with `astro dev stop`, `astro dev status`, and `ast
 
 ## Documentation
 
-Full documentation: https://docs.astro.build
+Full documentation:
+
+[Astro Document](https://docs.astro.build)
 
 Consult these guides before working on related tasks:
 
