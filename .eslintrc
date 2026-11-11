@@ -1,0 +1,12 @@
+{
+  "extends": ["@unocss"],
+  "rules": {
+    "@unocss/<rule-name>": "warn", // or "error",
+    "@unocss/<another-rule-name>": [
+      "warn" /* or "error" */,
+      {
+        /* options */
+      },
+    ],
+  },
+}
