@@ -52,7 +52,7 @@ export default defineConfig({
 
     "link-button": "border border-slate-300 rounded-sm px-3 py-2",
 
-    "nav-links": "w-full m-0 nav:ml-[5em] nav:block nav:static nav:w-auto nav:bg-transparent",
+    "nav-links": "w-full m-0 hidden nav:ml-[5em] nav:block nav:static nav:w-auto nav:bg-transparent",
 
     "nav-link":
       "block text-center py-[10px] px-0 no-underline font-[1.2rem] font-bold uppercase text-[oklch(21.7%_0.12_272.5)] hover:bg-[oklch(77.8%_0.134_38.4)] focus:bg-[oklch(77.8%_0.134_38.4)]",
