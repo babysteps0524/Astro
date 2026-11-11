@@ -13,6 +13,10 @@ const skills = ["HTML", "UnoCSS", "JavaScript", "TypeScript", "Astro", "Bun"];
 const happy = true;
 const finished = false;
 const goal = 3;
+
+const skillcolor = "crimson";
+const fontWeight = "bold";
+const textCase = "uppercase";
 ---
 
 <html lang="en">
@@ -34,7 +38,7 @@ const goal = 3;
     <a href="/blog" border="1" rounded="sm">
       Blog
     </a>
-    <h1>{pageTitle}</h1>
+    <h1 text="purple 2xl">{pageTitle}</h1>
     <h2>... and my new Astro site!</h2>
     <p>
       I am working through Astro's introductory tutorial. This is the second page on my website, and
@@ -57,10 +61,15 @@ const goal = 3;
         </li>
       )}
     </ul>
-    <p>My sills are:</p>
+    <p>My skills are:</p>
     <ul>
       {skills.map((skill) => (
-        <li>{skill}</li>
+        <li
+          style={`--skill-color: ${skillcolor}; --skill-fontWeight: ${fontWeight}; --skill-textCase: ${textCase}`}
+          class="[color:var(--skill-color)] [font-weight:var(--skill-fontWeight)] [text-transform:var(--skill-textCase)]"
+        >
+          {skill}
+        </li>
       ))}
     </ul>
 
