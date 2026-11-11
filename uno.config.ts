@@ -7,7 +7,7 @@ export default defineConfig({
     {
       getCSS: () => `
       html {
-      background-color: oklch(96.8% 0.007 247.9);
+      background-color: "oklch(96.8% 0.007 247.9)";
       font-family: Pretendard, sans-serif;}
 
       body {
@@ -16,7 +16,7 @@ export default defineConfig({
         max-width: 80ch;
         padding: 1rem;
         line-height: 1.5;
-      },
+      }
 
       *,
       *::before,
@@ -31,17 +31,32 @@ export default defineConfig({
   ],
 
   theme: {
+    breakpoints: {
+      nav: "636px",
+    },
+
     colors: {
       primary: "oklch(58.5% 0.204 277.1)",
       secondary: "oklch(96.8% 0.007 247.9)",
     },
+
     fontFamily: {
       sans: "Pretendard,sans-serif",
     },
   },
+
   shortcuts: {
     "page-container": "mx-auto w-full max-w-80ch p-4 leading-6",
+
     "heading-primary": "my-4 text-4xl font-bold",
+
     "link-button": "border border-slate-300 rounded-sm px-3 py-2",
+
+    "nav-links": "w-full m-0 nav:ml-[5em] nav:block nav:static nav:w-auto nav:bg-transparent",
+
+    "nav-link":
+      "block text-center py-[10px] px-0 no-underline font-[1.2rem] font-bold uppercase text-[oklch(21.7%_0.12_272.5)] hover:bg-[oklch(77.8%_0.134_38.4)] focus:bg-[oklch(77.8%_0.134_38.4)]",
+
+    "nav-link-desktop": "nav:inline-block nav:py-[15px] nav:px-5",
   },
 });
