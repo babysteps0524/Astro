@@ -7,5 +7,13 @@
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "cSpell.words": ["Attributify", "oklch", "preflights", "Pretendard", "unocss"]
+  "cSpell.words": [
+    "Attributify",
+    "oklch",
+    "preflights",
+    "Pretendard",
+    "skillcolor",
+    "unocss",
+    "YEONWOO"
+  ]
 }
