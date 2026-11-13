@@ -12,7 +12,7 @@ export default defineConfig({
     {
       getCSS: () => `
       html {
-      background-color: "oklch(96.8% 0.007 247.9)";
+      background-color: oklch(96.8% 0.007 247.9) ;
       font-family: Pretendard, sans-serif;}
 
       body {
@@ -58,7 +58,7 @@ export default defineConfig({
     "link-button": "border border-slate-300 rounded-sm px-3 py-2",
 
     // 모바일 메뉴 버튼
-    menu: "bg-[#0d0950] border-none text-white text-[1.2rem] font-bold py-[5px] px-[10px] nav:hidden", 
+    menu: "bg-[#0d0950] border-none text-white text-[1.2rem] font-bold py-[5px] px-[10px] nav:hidden",
 
     // 모바일 기본 네비게이션
     "nav-links":
